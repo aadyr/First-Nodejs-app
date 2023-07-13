@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.get('/test', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from /test Node!';
+  const msg = 'Hello World';
   res.send(msg);
 });
 
